@@ -96,7 +96,7 @@ class AboutMessagePassing < EdgeCase::Koan
     exception = assert_raise(NoMethodError) do
       typical.method_missing(:foobar)
     end
-    assert_match(/undefined method `foobar'/, exception.message)
+    assert_match(/private method `method_missing'/, exception.message)
 
     # THINK ABOUT IT:
     #
