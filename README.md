@@ -13,4 +13,6 @@ In your terminal, while in the `ruby_koans` directory, type:
 
 `[ ruby_koans ] $ ruby path_to_enlightenment.rb`
 
+#### Ruby Koans (in Ruby 2.6.6)
+
 ![alt text](koans.png "Ruby Koans: path_to_enlightment")
